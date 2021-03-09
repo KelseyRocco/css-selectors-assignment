@@ -1,0 +1,78 @@
+/* Move your styles here when you're ready to clean up your HTML file */
+/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+/*Tag Selector Styles*/
+html {
+    font-size:16px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Stick', sans-serif;
+    font-size: 25px;
+}
+
+header {
+    border-bottom: 5px dotted pink;
+}
+
+/*Class Selector Styles*/
+.class-list {
+    list-style-type: square;
+}
+
+.item {
+    border: 2px solid green;
+}
+.even {
+    background-color: grey;
+}
+
+.odd {
+    background-color: black;
+}
+
+.odd p {
+    color: white;
+}
+
+/*ID Selector Styles*/
+#item1 {
+    font-size: 30px;
+}
+
+#item2 {
+    text-align: right;
+}
+
+/*Advanced Selector Styles*/
+ol li p {
+    background-color: grey;
+    padding: 5px;
+}
+
+
+ol li:nth-child(odd) p {
+    background-color: green;
+}
+
+ol ul li {
+    background-color: green;
+}
+
+
+a[href="https://bitmakerlabs.com/"]:hover {
+    text-decoration: none;
+}
+
+a[href="#"] {
+    background-color: red;
+}
+
+a[href="#"]:hover {
+    background-color: yellow;
+}
